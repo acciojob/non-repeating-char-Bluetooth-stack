@@ -8,9 +8,9 @@ function nonRepeat(str) {
 			}
 		}
 	}
-	return ''
+	return null;
 }
-let str = prompt("Enter a string");
+let str = prompt("Enter a string"); 
 let res = nonRepeat(str);
 // console.log(res);
 alert(res)
